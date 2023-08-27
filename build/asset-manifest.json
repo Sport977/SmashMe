@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SmashMe/static/css/main.7ff2626a.css",
+    "main.js": "/SmashMe/static/js/main.18515c2c.js",
+    "index.html": "/SmashMe/index.html",
+    "main.7ff2626a.css.map": "/SmashMe/static/css/main.7ff2626a.css.map",
+    "main.18515c2c.js.map": "/SmashMe/static/js/main.18515c2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ff2626a.css",
+    "static/js/main.18515c2c.js"
+  ]
+}
