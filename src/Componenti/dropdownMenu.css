@@ -1,0 +1,54 @@
+/* dropdownMenu.css */
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-container button {
+  background-color: #ff9900; /* Sfondo arancione */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-container button:hover {
+  background-color: #ffcc33; /* Sfondo arancione più chiaro al passaggio del mouse */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  background-color: #ff9900; /* Sfondo arancione */
+  color: white;
+  padding: 10px;
+  display: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  padding: 5px 0;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.dropdown-menu li a:hover {
+  color: #ffcc33; /* Testo arancione più chiaro al passaggio del mouse */
+}
+
+.dropdown-container:hover .dropdown-menu {
+  display: block;
+}

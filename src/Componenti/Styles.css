@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Stile per la chat-list */
+.chat-list {
+    width: 250px; /* Larghezza della chat-list */
+    background-color: #f0f0f0; /* Colore di sfondo */
+    padding: 20px; /* Spaziatura interna */
+  }
+  
+  /* Stile per l'header della chat-list */
+  .chat-list h2 {
+    margin-bottom: 10px; /* Spaziatura inferiore */
+    color: #333; /* Colore del testo */
+  }
+  
+  /* Stile per ogni chat nella lista */
+  .chat-list ul {
+    list-style-type: none; /* Rimuove i punti elenco */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .chat-list li {
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    padding: 10px 0; /* Spaziatura superiore e inferiore */
+    border-bottom: 1px solid #ccc; /* Linea divisoria tra le chat */
+  }
+  
+  /* Stile per il messaggio attivo nella lista */
+  .chat-list li.active {
+    background-color: #007bff; /* Colore di sfondo del messaggio attivo */
+    color: #fff; /* Colore del testo del messaggio attivo */
+  }
+  
+  /* Stile per la chat-container (posizionamento) */
+  .chat-container {
+    display: flex; /* Rende i componenti interni allineati in una riga */
+  }
+  
+  /* Stile per il componente Chat (posizionamento a destra) */
+  .chat-messages {
+    flex: 1; /* Flessibile in modo che occupi lo spazio rimanente */
+    padding: 20px; /* Spaziatura interna */
+    background-color: #f9f9f9; /* Colore di sfondo */
+    min-height: 400px; /* Altezza minima */
+    overflow-y: auto; /* Abilita lo scroll se necessario */
+  }
+  
+  .chat-messages .chat-message {
+    margin: 10px 0;
+  }
+  
+  /* Stile per il componente ChatList (posizionamento a sinistra) */
+  .chat-list {
+    width: 250px; /* Larghezza della chat-list */
+    background-color: #f0f0f0; /* Colore di sfondo */
+    padding: 20px; /* Spaziatura interna */
+  }
+  

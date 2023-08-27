@@ -1,0 +1,99 @@
+/* Navbar.css */
+.navbar {
+  background: linear-gradient(135deg, rgba(23, 112, 222, 0.8), rgba(0, 55, 145, 0.8));
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  position: relative;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+  text-decoration: none; /* Rimuovi il sottolineato del link */
+  color: #0b0a0a; /* Aggiungi il colore del testo */
+}
+
+.navbar h1:hover {
+  color: #ffcc00;
+}
+
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 34px;
+  transition: transform 0.2s;
+}
+
+.menu-toggle:hover {
+  transform: scale(1.1);
+}
+
+.menu-items {
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  background: linear-gradient(135deg, rgba(23, 112, 222, 0.8), rgba(0, 55, 145, 0.8));
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  z-index: 1;
+  display: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform 0.2s;
+}
+
+.navbar:hover .menu-items {
+  transform: scaleY(1);
+}
+
+.menu-items li {
+  list-style: none;
+  margin: 8px 0;
+  transform: scale(0.9);
+  transition: transform 0.2s;
+}
+
+.menu-items li:hover {
+  transform: scale(1);
+}
+
+.menu-items li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Stile per l'immagine del profilo nella navbar */
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #fff; /* Aggiungi un bordo bianco */
+  transition: transform 0.2s;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}

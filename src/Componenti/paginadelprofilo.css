@@ -1,0 +1,68 @@
+/* paginadelprofilo.css */
+.container {
+    width: 100%;
+    min-height: 100vh; /* Utilizza min-height per garantire che il contenuto occupi almeno l'altezza dello schermo */
+    display: flex;
+    flex-direction: column; /* Aggiunto per allineare gli elementi in colonna */
+    justify-content: flex-start; /* Allinea il contenuto all'inizio del container */
+    align-items: center;
+    background-color: black; /* Sfondo nero */
+    color: white; 
+  }
+  
+  .profile-form {
+    width: 80%; /* Riduci la larghezza del form al 80% della larghezza massima */
+    max-width: 1000px; /* Imposta una larghezza massima inferiore */
+    margin-top: 20px; /* Riduci la margin-top per spostare il form più in alto */
+    padding: 20px;
+    background-color: #007bff; /* Colore di sfondo blu */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Allinea gli elementi in colonna */
+    align-items: flex-start; /* Allinea gli elementi al bordo sinistro */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Aggiungi spazio sotto il titolo */
+  }
+  
+  /* Aggiungi margin-bottom alle label per staccare gli elementi */
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%; /* Occupa il 100% della larghezza disponibile */
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 2px solid #007bff; /* Bordi blu */
+    border-radius: 5px;
+    resize: none;
+    font-family: Arial, sans-serif;
+    color: black; /* Testo nero */
+    background-color: white; /* Colore di sfondo bianco */
+  }
+  
+  button {
+    width: 100%; /* Occupa tutta la larghezza disponibile */
+    background-color: #06f506; /* Sfondo del pulsante blu */
+    color: white; /* Testo bianco */
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Colore di sfondo del pulsante blu scuro al passaggio del mouse */
+  }
+  
+  
+  
